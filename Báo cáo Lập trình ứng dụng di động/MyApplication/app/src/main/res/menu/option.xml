@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Sửa"
+        android:id="@+id/edit_optionMenu_Detail"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="always"
+        />
+    <item android:title="Delete"
+        android:id="@+id/delete_optionMenu_Detail"
+        app:showAsAction="never"
+        />
+</menu>

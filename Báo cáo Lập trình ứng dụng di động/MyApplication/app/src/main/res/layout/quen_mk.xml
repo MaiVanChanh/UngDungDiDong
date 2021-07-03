@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    tools:context=".SignUpScreen">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="397dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="204dp">
+
+        <LinearLayout
+            android:id="@+id/linlayy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_emailqmk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Email"
+                    android:textAllCaps="true"
+                    android:textColor="#00008b"
+                    android:textStyle="bold"
+                    android:textSize="18sp"  />
+
+                <EditText
+                    android:id="@+id/Et_emailqmk"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/et_bg"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:hint="abc@gmail.com"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_accountqmk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Account"
+                    android:textAllCaps="true"
+                    android:textColor="#00008b"
+                    android:textStyle="bold"
+                    android:textSize="18sp"  />
+
+                <EditText
+                    android:id="@+id/Et_accountqmk"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/et_bg"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:hint="Username"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_qmkc"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linlayy1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="94dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="GỬI XÁC NHẬN"
+            android:textAllCaps="false"
+            android:textColor="#00008b"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_backqmk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_qmkc"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif-medium"
+            android:text="TRỞ LẠI"
+            android:textColor="#00008b"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_qmk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="92dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Quên Mật khẩu"
+        android:textColor="#000080"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

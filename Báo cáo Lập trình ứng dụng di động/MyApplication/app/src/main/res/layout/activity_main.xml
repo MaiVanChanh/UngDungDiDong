@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TỔNG CHI TIÊU"
+            android:textColor="#00008b"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TableRow
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="wrap_content"
+                android:background="#87ceeb"
+                android:text="Đã chi trong năm nay"
+                android:textAlignment="textStart"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_namNay"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.000.000 đ" />
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đã chi trong tháng trước"
+                android:background="#48d1cc"/>
+
+            <TextView
+                android:id="@+id/textView_thangTruoc"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.000.000 đ" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đã chi trong tháng này"
+                android:textAlignment="textStart"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:background="#20b2aa"/>
+
+            <TextView
+                android:id="@+id/textView_thangNay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.000.000 đ"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
